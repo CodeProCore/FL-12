@@ -1,67 +1,89 @@
 @media print {
-    body {
-        background-color: #ffffff; 
-        text-align: center;
-        padding-top: 0
-    }
+            body {
+                background-color: #ffffff; 
+                text-align: center;
+                padding-top: 0
+            }
 
-    .tm-main-content, .padding-medium, .tm-content-box, .container .carousel {
-        margin: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+            h2 {
+                text-transform: uppercase;
+            }
 
-    .tm-banner {
-        padding-bottom: 0;
-    }
-    .padding-medium {
-        padding-top: 0;
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0;
-    }
-    .tm-team-description-container {
-        max-width: 100%;
-    }
-    .tm-team-img {
-        display: none;
-    }
-    
+            .tm-main-content, .padding-medium, .tm-content-box, .container, .carousel, .carousel-indicators {
+                margin: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
 
-    }
-    .gallery-container {
-        display: none;
-    }
+            .tm-banner {
+                padding-top: 0;
+                padding-bottom: 0;
+                margin-bottom: 30px;
+            }
+            .padding-medium {
+                padding-top: 0;               
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 25px;
+            }
+            .tm-team-description-container {
+                max-width: 100%;
+            }
+            #contact, .tm-team-img, .tm-sidebar, .img-fluid {
+                display: none;
+            } 
+            .gallery-container {
+                display: none;
+            }
+            
 
-        
 
-    section.heading ol {
-        padding-left: 0;
-        list-style-type: none;
-    }
-    section.heading .padding-medium {
-        margin: 0 auto;
-        width: 378px;
-        
-    }
-    section .padding-medium {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    section.heading .padding-medium ol li:nth-child(odd) {
-        text-align: right;
-    }
-    section.heading .padding-medium ol li:nth-child(even) {
-        text-align: left;
-    }
-    section.heading h2 {
-        color: lightskyblue;
-        margin: 0;
-        margin-top: 25px;
-        font-weight: 300;
-
-    }
+            section.heading ol {
+                padding-left: 0;
+                list-style-type: none;
+            }
+            section.heading .padding-medium {
+                margin: 0 auto;
+                width: 378px;                
+            }
+            section .padding-medium {
+                padding-top: 0;
+                padding-bottom: 0;                
+            }            
+            
+            section.heading .padding-medium ol li:nth-child(odd) {
+                text-align: right;
+            }
+            section.heading .padding-medium ol li:nth-child(even) {
+                text-align: left;
+            }
+            section.heading .padding-medium h2 {
+                color: lightskyblue;
+                margin: 0;
+                margin-bottom: 22px;
+                font-weight: 300;
+            }
+            section.blocks .tm-section-description:last-child {
+                word-spacing: 1.6em;
+                font-style: italic;
+                margin-bottom: 20px;
+            }
+            
+            section.blocks {
+                padding: 0;
+                margin-top: 0;
+                margin-bottom: 20px;
+                
+            }
+            section#ideas .carousel {
+                max-width: 500px;
+                text-align: center;
+                margin: 0 auto;
+                padding: 0;
+                margin-top: 0;
+                margin-bottom: 25px;
+            }
+        }    
 
 
 
