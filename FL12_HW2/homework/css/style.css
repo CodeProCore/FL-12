@@ -153,9 +153,9 @@
 
         .tm-team-description-container {
             text-align: left;
-            /* display: flex;
+            display: flex;
             flex-direction: column;
-            justify-content: center; */
+            justify-content: center;
         }
 
         .tm-section-description {
