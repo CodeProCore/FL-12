@@ -82,7 +82,7 @@ body {
 .first_section { 
   margin-top: 15px; 
   height: 400px;
-  background-image: url(/img/post0.jpg);
+  background-image: url( ../img/post0.jpg);
   background-size: cover;  
 }
 .first_section_block {
